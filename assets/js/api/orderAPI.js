@@ -17,7 +17,7 @@ function handleEditButtonClick(dataOrder) {
     }
 
     
-    const apiUrl = "https://beapp-nine.vercel.app//api/orderDetails/"+dataOrder._id;
+    const apiUrl = "https://beapp-nine.vercel.app/api/orderDetails/"+dataOrder._id;
     const authenticationHeader = {
         "Authorization": authorization,
     };
@@ -75,7 +75,7 @@ async function getData(url = "", headers = {}) {
     return response.json();
 }
 
-const apiUrl = "https://beapp-nine.vercel.app//api/orders";
+const apiUrl = "https://beapp-nine.vercel.app/api/orders";
 const authenticationHeader = {
     "Authorization": authorization,
 };

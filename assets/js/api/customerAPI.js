@@ -24,7 +24,7 @@ function handleDeleteButtonClick(data) {
 function deleteCustomer(){
   
   async function deleteCustomer(id) {
-    const apiUrl = `https://beapp-nine.vercel.app//api/customers/${id}`;
+    const apiUrl = `https://beapp-nine.vercel.app/api/customers/${id}`;
     const authenticationHeader = {
       "Authorization": authorization,
     };
@@ -81,7 +81,7 @@ async function getData(url = "", headers = {}) {
   return response.json();
 }
 
-const apiUrl = "https://beapp-nine.vercel.app//api/customers";
+const apiUrl = "https://beapp-nine.vercel.app/api/customers";
 const authenticationHeader = {
   "Authorization": authorization,
 };

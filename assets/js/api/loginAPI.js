@@ -1,4 +1,4 @@
-const url = 'https://beapp-nine.vercel.app//api/login';
+const url = 'https://beapp-nine.vercel.app/api/login';
 
 function validateForm() {
   var username = document.getElementById("loginEmail").value;
