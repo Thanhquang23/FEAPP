@@ -229,7 +229,7 @@ function validateForm() {
           var file = imageInput.files[0];
           var formData = new FormData();
           formData.append("file", file);
-          formData.append("upload_preset", "sfxrmjey"); // Thay YOUR_UPLOAD_PRESET bằng upload preset của bạn
+          formData.append("upload_preset", "zkgrnabd"); // Thay YOUR_UPLOAD_PRESET bằng upload preset của bạn
 
           var url = "https://api.cloudinary.com/v1_1/degbpwjdj/image/upload"; // Thay YOUR_CLOUD_NAME bằng tên cloud của bạn
 
@@ -393,7 +393,7 @@ function validateForm() {
             var file = imageInput.files[0];
             var formData = new FormData();
             formData.append("file", file);
-            formData.append("upload_preset", "sfxrmjey"); // Thay YOUR_UPLOAD_PRESET bằng upload preset của bạn
+            formData.append("upload_preset", "zkgrnabd"); // Thay YOUR_UPLOAD_PRESET bằng upload preset của bạn
   
             var url = "https://api.cloudinary.com/v1_1/degbpwjdj/image/upload"; // Thay YOUR_CLOUD_NAME bằng tên cloud của bạn
   
